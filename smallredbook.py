@@ -2,7 +2,6 @@
 此代码旨在通过LangChain框架与聊天模型进行交互，使用特定的API密钥进行身份验证，并以结构化的格式处理输出。每个部分都是模块化的，允许在提示设计、
 模型选择和输出处理方面具有灵活性。
 '''
-from IPython.utils.io import raw_print
 # 导入所需的模块
 from langchain_groq import ChatGroq  # 从langchain_groq模块导入聊天模型类
 from langchain_core.prompts import ChatPromptTemplate  # 从langchain_core模块导入聊天提示模板类
